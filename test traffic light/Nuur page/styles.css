@@ -1,0 +1,41 @@
+body {
+    background-color: #232B2B;
+    margin: 0;
+    padding: 0
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Home {
+    cursor: pointer;
+    &:hover,
+    &:focus-visible {
+        translate: 0 -.5rem;
+    }
+}
+
+
+h1 {
+    font-size: 250px;
+    font-family: Lato, "Bold Italic";
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    margin: auto;
+    width: 99%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+div.pingu {
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
